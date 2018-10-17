@@ -1,0 +1,51 @@
+div p{
+
+}
+li + p{
+  color:blue;
+
+}
+img {
+   display: flex;
+  allign: relative;
+    right: 0px;
+  height: 40vh;
+  border: 5px solid black;
+}
+
+#img {
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+#img:hover {
+  top: -20px;
+}
+
+body {
+   background-image: url("Assets/8 ball.jpg");
+  padding: 16px;
+  background-color: #C0C0C0;
+}
+.Top {
+  text-align: center;
+  text-decoration: strong
+
+}
+
+.Development {
+  background-color: #C0C0C0;
+   text-decoration: underline
+}
+.Pre  {
+  background-color: #C0C0C0;
+   text-decoration: underline
+}
+ .Production  {
+  background-color: #C0C0C0;
+   text-decoration: underline
+}
+.Post {
+  background-color: #C0C0C0;
+   text-decoration: underline
+}
